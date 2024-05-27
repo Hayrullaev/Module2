@@ -10,6 +10,6 @@ def find_unique_pairs(number):
                 result.append(pair)
     return result
 
-n = int(input("Введите число от 3 до 20: "))  # ввод числа
-result = find_unique_pairs(n)  # вычисление пар
+n = int(input("Введите число от 3 до 20: "))  
+result = find_unique_pairs(n)  
 print("Пары чисел:", result)
